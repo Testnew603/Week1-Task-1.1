@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Source+Sans+Pro:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: scroll;
+    background-color: cornflowerblue;
+}
+
+.container{
+    height: 13em;
+    /*background: #1f0607;*/
+}
+
+.logo{
+    width: 140px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.links{
+    width: 50%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 5.5em;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  #image1{
+   background-image: url('https://www.darkfantasycreations.com/images/creationbanner.jpg'); 
+   background-repeat: no-repeat;
+  }
+
+  #section_image{
+    background-image: url('https://www.darkfantasycreations.com/images/recipes/recipes_bg.jpg');
+  }
+
+  #section_image1{
+    background-image: url('https://www.darkfantasycreations.com/images/range_bg.png');
+    background-repeat: no-repeat;
+  }
+
+  #para1{
+    max-width: 43%;
+    text-align: center;
+    color: white;
+    margin-left: 32%;
+    font-size: 18px;margin-top: 50px;
+    line-height: 23px;
+  }
+
+  div#tile_image{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tile_image_desc{
+    width: 23em;
+    height: 20em;
+    margin: 15px;
+  }
+
+  ul li{
+    list-style: none;
+    display: inline;
+  }
+
+  .icon_size{
+    height: 20px;
+    width: 22px;
+    margin-left: 20px;
+  }
+
+  .footer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+    padding-top: 30px;
+  }
+
+  .grow { 
+    height: 60px; 
+    width: 60px;
+    }
+    .grow:hover { 
+    transform: scale(1.1); 
+    cursor: pointer;
+    }
